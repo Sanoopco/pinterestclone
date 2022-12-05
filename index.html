@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="postdetail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar">
+            <p class="brand">
+                @P
+            </p>
+            <ul class="list navbar-list">
+                <li class="list-item">
+                    <a href="" class="link" id="top">home</a>
+                </li>
+                <li class="list-item">
+                    <a href="" class="link">today</a>
+                </li>
+                <li class="list-item">
+                    <a href="" class="link">create</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass link-gray"></i>
+            <input type="search" name="" id="id_search" placeholder="search">
+        </div>
+        <ul class="list">
+            <li class="list-item">
+                <a href="" class="link-gray"><i class="fa-solid fa-bell"></i></a>
+            </li>
+            <li class="list-item">
+                <a href="" class="link-gray"><i class="fa-solid fa-comment-dots"></i></a>
+            </li>
+            <li class="list-item">
+                <div class="img-container-x-small round">
+                    <img class="img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=".">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div id="id_all_display_container">
+        <div class="container padding-for-container grid" id="id_display_container"> 
+           
+        </div>
+        <button class="load-more-btn" id="load_more_btn" onclick="loadMore()">load more</button>
+    </div>
+    <a href="#top" id="id_to_top" onclick="toLocation()" class="up-link link-gray" style="width: 35px; height: 35px;"><i class="fa-solid fa-arrow-up"></i></a>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
